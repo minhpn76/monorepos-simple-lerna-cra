@@ -1,0 +1,12 @@
+lerna-cra-typescript
+  /packages
+    /commons (cra + typescript)
+      ButtonComponent
+    web (cra + typescript)
+
+
+//run dependencies
+npx lerna add @monorepos/common --scope=@monorepos/web
+
+//module web
+install craco to run script
